@@ -1,10 +1,6 @@
 # code your #position_taken? method here!
-def position_taken?(board, index")
-
-
-
-
-
-
-  board[index]
+def position_taken?(board, index)
+  # board[index] != " "
+  if board[index] == "X" || board[index] == "O"
+    
 end
